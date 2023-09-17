@@ -8,7 +8,7 @@ module.exports = {
   siteName: 'Gridsome Portfolio Starter',
   siteDescription: 'A simple portfolio theme for Gridsome powered by Tailwind CSS v1',
   siteUrl: 'https://ansyeow.github.io',
-  pathPrefix: '/gridsome-portfolio-starter',
+  pathPrefix: '/guruhub-v01',
   plugins: [
     {
       use: 'gridsome-plugin-tailwindcss',
