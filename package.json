@@ -2,7 +2,7 @@
   "name": "andremadarang",
   "private": true,
   "scripts": {
-    "build": "gridsome build --openssl-legacy-provider",
+    "build": "export NODE_OPTIONS=--openssl-legacy-provider && gridsome build",
     "develop": "gridsome develop",
     "explore": "gridsome explore",
     "test": "./node_modules/.bin/cypress open"
